@@ -1,0 +1,10 @@
+Container is isolated that's why we can't run our project directly on any port.
+TO SOLVE this problem we have one concept PORT MAPPING.
+PORT MAPPING - It's allow the application container to get access or to run the application on outside/browser.
+
+
+#from node - base image
+#copy source dist
+#the lines are called is layers
+#COPY package.json package.json
+#COPY package-lock.json package-lock.json%
